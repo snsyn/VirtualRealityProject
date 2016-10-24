@@ -1,0 +1,4 @@
+sceneSetups:
+- path: C:/VE/Assets/VE.unity
+  isLoaded: 1
+  isActive: 1
