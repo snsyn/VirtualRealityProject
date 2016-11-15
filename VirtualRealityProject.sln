@@ -1,11 +1,13 @@
-﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2015
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualRealityProject.CSharp.Plugins", "VirtualRealityProject.CSharp.Plugins.csproj", "{5E54CA47-2B51-2B7A-D297-90F3E51FAD57}"
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{EF067761-E58F-5150-B204-BF3452E34EF8}") = "VirtualRealityProject", "Assembly-CSharp-firstpass.csproj", "{F2EE5584-BFF9-884A-8382-1E0DC59C2764}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualRealityProject.CSharp", "VirtualRealityProject.CSharp.csproj", "{A4E94E81-B280-C66E-0906-8AC1CC39FF0D}"
+Project("{EF067761-E58F-5150-B204-BF3452E34EF8}") = "VirtualRealityProject", "Assembly-CSharp.csproj", "{19FEE301-CFEB-9B04-831A-0E2805A226C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualRealityProject.CSharp.Editor", "VirtualRealityProject.CSharp.Editor.csproj", "{C0B0F6DE-7567-715B-57F5-A74B62F281BE}"
+Project("{EF067761-E58F-5150-B204-BF3452E34EF8}") = "VirtualRealityProject", "Assembly-CSharp-Editor.csproj", "{C1B2AED0-215A-14D5-A536-7D64FFF29E51}"
+EndProject
+Project("{EF067761-E58F-5150-B204-BF3452E34EF8}") = "VirtualRealityProject", "Assembly-UnityScript.unityproj", "{D122C8A7-BF09-394C-DDBC-75E1580F1153}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,20 +15,27 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{5E54CA47-2B51-2B7A-D297-90F3E51FAD57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5E54CA47-2B51-2B7A-D297-90F3E51FAD57}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5E54CA47-2B51-2B7A-D297-90F3E51FAD57}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5E54CA47-2B51-2B7A-D297-90F3E51FAD57}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A4E94E81-B280-C66E-0906-8AC1CC39FF0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A4E94E81-B280-C66E-0906-8AC1CC39FF0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A4E94E81-B280-C66E-0906-8AC1CC39FF0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A4E94E81-B280-C66E-0906-8AC1CC39FF0D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C0B0F6DE-7567-715B-57F5-A74B62F281BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C0B0F6DE-7567-715B-57F5-A74B62F281BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C0B0F6DE-7567-715B-57F5-A74B62F281BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C0B0F6DE-7567-715B-57F5-A74B62F281BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2EE5584-BFF9-884A-8382-1E0DC59C2764}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2EE5584-BFF9-884A-8382-1E0DC59C2764}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2EE5584-BFF9-884A-8382-1E0DC59C2764}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2EE5584-BFF9-884A-8382-1E0DC59C2764}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19FEE301-CFEB-9B04-831A-0E2805A226C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19FEE301-CFEB-9B04-831A-0E2805A226C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19FEE301-CFEB-9B04-831A-0E2805A226C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19FEE301-CFEB-9B04-831A-0E2805A226C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1B2AED0-215A-14D5-A536-7D64FFF29E51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1B2AED0-215A-14D5-A536-7D64FFF29E51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1B2AED0-215A-14D5-A536-7D64FFF29E51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1B2AED0-215A-14D5-A536-7D64FFF29E51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D122C8A7-BF09-394C-DDBC-75E1580F1153}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D122C8A7-BF09-394C-DDBC-75E1580F1153}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D122C8A7-BF09-394C-DDBC-75E1580F1153}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D122C8A7-BF09-394C-DDBC-75E1580F1153}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
 	EndGlobalSection
 EndGlobal
